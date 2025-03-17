@@ -4,7 +4,7 @@ import EmailProvider from "next-auth/providers/email";
 import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
 import { connectToMongoClient } from "@/lib/mongodb";
 
-export const authOptions: AuthOptions = {
+const authOptions: AuthOptions = {
   adapter: MongoDBAdapter(connectToMongoClient()),
   providers: [
     GoogleProvider({
