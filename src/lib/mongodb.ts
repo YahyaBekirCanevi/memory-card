@@ -1,13 +1,12 @@
 import mongoose from "mongoose";
 
-const uri =
-  "mongodb+srv://customer:XepZRAmaUBTQw56v@capitalive.ynjwh.mongodb.net/" +
-  "?retryWrites=true&w=majority&appName=CAPITALIVE";
-const MONGODB_URI = uri; //process.env.MONGODB_URI!; // Load from .env file
-
-if (!MONGODB_URI) {
+if (!process.env.MONGO_URI) {
   throw new Error("Please define the MONGODB_URI environment variable");
 }
+
+const uri =
+  process.env.MONGO_URI + "?retryWrites=true&w=majority&appName=CAPITALIVE";
+const MONGODB_URI = uri; //process.env.MONGODB_URI!; // Load from .env file
 
 let cached = (global as any).mongoose || { conn: null, promise: null };
 
