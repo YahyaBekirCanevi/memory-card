@@ -36,7 +36,7 @@ export async function POST(req: Request) {
     fs.writeFileSync(filePath, JSON.stringify(existingWords, null, 2));
 
     return NextResponse.json({ message: "Words imported successfully!" });
-  } catch (error) {
+  } catch (_) {
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }

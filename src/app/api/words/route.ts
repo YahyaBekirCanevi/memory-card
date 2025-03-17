@@ -34,7 +34,7 @@ export async function GET(req: Request) {
     const shuffled = words.sort(() => 0.5 - Math.random());
 
     return NextResponse.json(shuffled.slice(amount * (page - 1), amount * page));
-  } catch (error) {
+  } catch (_) {
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }
