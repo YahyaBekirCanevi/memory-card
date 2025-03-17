@@ -23,6 +23,7 @@ const authOptions: AuthOptions = {
       from: process.env.EMAIL_FROM!,
     }),
   ],
+  secret: process.env.NEXTAUTH_SECRET!,
   callbacks: {
     async signIn({ user }) {
       const db = (await connectToMongoClient()).db("memory_cards");
