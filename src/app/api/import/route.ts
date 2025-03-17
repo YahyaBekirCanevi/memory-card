@@ -1,42 +1,47 @@
-import fs from "fs";
-import path from "path";
-import { NextResponse } from "next/server";
-import { Word } from "@/data/Word";
+import { NextRequest, NextResponse } from "next/server";
+import { connectToDatabase } from "@/lib/mongodb";
+import Word from "@/models/Word";
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   try {
-    const filePath = path.join(process.cwd(), "src/data/words.json");
+    await connectToDatabase(); // Connect to MongoDB
 
     const body = await req.json();
+    
     if (!Array.isArray(body) || body.length === 0) {
       return NextResponse.json({ error: "Invalid input, expected an array of words" }, { status: 400 });
     }
 
-    const newWords: Word[] = body.filter(
+    // Validate input structure
+    const newWords = body.filter(
       (word) =>
         typeof word.word === "string" &&
         typeof word.meaning === "string" &&
         typeof word.example === "string" &&
-        typeof word.translation === "string"
+        typeof word.translation === "string" &&
+        typeof word.category === "string"
     );
 
     if (newWords.length === 0) {
       return NextResponse.json({ error: "No valid words provided" }, { status: 400 });
     }
 
-    let existingWords: Word[] = [];
-    if (fs.existsSync(filePath)) {
-      const fileContent = fs.readFileSync(filePath, "utf-8").trim();
-      if (fileContent) {
-        existingWords = JSON.parse(fileContent);
-      }
+    // Avoid duplicates by checking existing words
+    const existingWords = await Word.find({ word: { $in: newWords.map(w => w.word) } });
+    const existingWordsSet = new Set(existingWords.map(w => w.word));
+
+    const filteredWords = newWords.filter(word => !existingWordsSet.has(word.word));
+
+    if (filteredWords.length === 0) {
+      return NextResponse.json({ message: "No new words to add (all are duplicates)." }, { status: 200 });
     }
 
-    existingWords.push(...newWords);
-    fs.writeFileSync(filePath, JSON.stringify(existingWords, null, 2));
+    // Insert new words
+    await Word.insertMany(filteredWords);
 
-    return NextResponse.json({ message: "Words imported successfully!" });
-  } catch (_) {
+    return NextResponse.json({ message: "Words imported successfully!", added: filteredWords.length });
+  } catch (error) {
+    console.error("Error importing words:", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }

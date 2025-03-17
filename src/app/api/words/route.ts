@@ -1,40 +1,33 @@
-import fs from "fs";
-import path from "path";
-import { NextResponse } from "next/server";
-import { Word } from "@/data/Word";
+import { NextRequest, NextResponse } from "next/server";
+import { connectToDatabase } from "@/lib/mongodb";
+import Word from "@/models/Word";
 
-export async function GET(req: Request) {
+export async function GET(req: NextRequest) {
   try {
+    await connectToDatabase(); // Connect to MongoDB
+
     const url = new URL(req.url);
-    const amountParam = url.searchParams.get("amount");
-    const pageParam = url.searchParams.get("page");
-    const amount = amountParam ? parseInt(amountParam, 10) : 10;
-    const page = pageParam ? parseInt(pageParam, 10) : 1
+    const amount = parseInt(url.searchParams.get("amount") || "10", 10);
+    const page = parseInt(url.searchParams.get("page") || "1", 10);
 
     if (isNaN(amount) || amount <= 0) {
       return NextResponse.json({ error: "Invalid amount parameter" }, { status: 400 });
     }
 
     if (isNaN(page) || page <= 0) {
-      return NextResponse.json({ error: "Invalid page parameter" + page }, { status: 400 });
+      return NextResponse.json({ error: "Invalid page parameter" }, { status: 400 });
     }
 
-    const filePath = path.join(process.cwd(), "src/data/words.json");
+    // Fetch random words with pagination
+    const words = await Word.aggregate([
+      { $sample: { size: amount * page } }, // Get more than needed to support pagination
+      { $skip: (page - 1) * amount }, // Skip previous pages
+      { $limit: amount } // Limit the results
+    ]);
 
-    if (!fs.existsSync(filePath)) {
-      return NextResponse.json({ error: "Words file not found" }, { status: 500 });
-    }
-
-    const fileContent = fs.readFileSync(filePath, "utf-8");
-    if (!fileContent.trim()) {
-      return NextResponse.json({ error: "Words file is empty" }, { status: 500 });
-    }
-
-    const words: Word[] = JSON.parse(fileContent);
-    const shuffled = words.sort(() => 0.5 - Math.random());
-
-    return NextResponse.json(shuffled.slice(amount * (page - 1), amount * page));
-  } catch (_) {
+    return NextResponse.json(words);
+  } catch (error) {
+    console.error("Error fetching words:", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }
