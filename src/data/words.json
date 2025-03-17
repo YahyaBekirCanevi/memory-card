@@ -1,0 +1,1150 @@
+[
+  {
+    "word": "Haus",
+    "meaning": "house",
+    "example": "Das Haus ist groß.",
+    "translation": "The house is big.",
+    "category": "Noun"
+  },
+  {
+    "word": "Baum",
+    "meaning": "tree",
+    "example": "Der Baum ist grün.",
+    "translation": "The tree is green.",
+    "category": "Noun"
+  },
+  {
+    "word": "abfahren",
+    "meaning": "to depart",
+    "example": "Der Zug fährt in fünf Minuten ab.",
+    "translation": "The train departs in five minutes.",
+    "category": "Verb"
+  },
+  {
+    "word": "abholen",
+    "meaning": "to pick up",
+    "example": "Ich muss meine Schwester vom Bahnhof abholen.",
+    "translation": "I have to pick up my sister from the train station.",
+    "category": "Verb"
+  },
+  {
+    "word": "abnehmen",
+    "meaning": "to lose weight",
+    "example": "Sie möchte fünf Kilo abnehmen.",
+    "translation": "She wants to lose five kilograms.",
+    "category": "Verb"
+  },
+  {
+    "word": "ablaufen",
+    "meaning": "to expire",
+    "example": "Der Pass läuft in einem Monat ab.",
+    "translation": "The passport expires in one month.",
+    "category": "Verb"
+  },
+  {
+    "word": "absehen",
+    "meaning": "to foresee",
+    "example": "Er kann die Konsequenzen absehen.",
+    "translation": "He can foresee the consequences.",
+    "category": "Verb"
+  },
+  {
+    "word": "abbrechen",
+    "meaning": "to break off",
+    "example": "Sie musste die Diskussion abbrechen.",
+    "translation": "She had to break off the discussion.",
+    "category": "Verb"
+  },
+  {
+    "word": "achten",
+    "meaning": "to pay attention",
+    "example": "Achte auf den Verkehr!",
+    "translation": "Pay attention to the traffic!",
+    "category": "Verb"
+  },
+  {
+    "word": "ankommen",
+    "meaning": "to arrive",
+    "example": "Der Zug kommt um 10 Uhr an.",
+    "translation": "The train arrives at 10 o'clock.",
+    "category": "Verb"
+  },
+  {
+    "word": "antworten",
+    "meaning": "to answer",
+    "example": "Ich werde dir morgen antworten.",
+    "translation": "I will answer you tomorrow.",
+    "category": "Verb"
+  },
+  {
+    "word": "arbeiten",
+    "meaning": "to work",
+    "example": "Ich arbeite in einer Bank.",
+    "translation": "I work at a bank.",
+    "category": "Verb"
+  },
+  {
+    "word": "aufhören",
+    "meaning": "to stop",
+    "example": "Hör auf, so laut zu reden!",
+    "translation": "Stop talking so loudly!",
+    "category": "Verb"
+  },
+  {
+    "word": "aufwachen",
+    "meaning": "to wake up",
+    "example": "Ich wache um 7 Uhr auf.",
+    "translation": "I wake up at 7 AM.",
+    "category": "Verb"
+  },
+  {
+    "word": "backen",
+    "meaning": "to bake",
+    "example": "Meine Mutter backt einen Kuchen.",
+    "translation": "My mother is baking a cake.",
+    "category": "Verb"
+  },
+  {
+    "word": "baden",
+    "meaning": "to bathe",
+    "example": "Ich gehe gerne im See baden.",
+    "translation": "I like to bathe in the lake.",
+    "category": "Verb"
+  },
+  {
+    "word": "befehlen",
+    "meaning": "to command",
+    "example": "Der General befiehlt den Angriff.",
+    "translation": "The general commands the attack.",
+    "category": "Verb"
+  },
+  {
+    "word": "beginnen",
+    "meaning": "to begin",
+    "example": "Der Kurs beginnt morgen.",
+    "translation": "The course begins tomorrow.",
+    "category": "Verb"
+  },
+  {
+    "word": "bekommen",
+    "meaning": "to receive",
+    "example": "Ich habe ein Geschenk bekommen.",
+    "translation": "I received a gift.",
+    "category": "Verb"
+  },
+  {
+    "word": "belügen",
+    "meaning": "to lie to",
+    "example": "Du hast mich belogen.",
+    "translation": "You lied to me.",
+    "category": "Verb"
+  },
+  {
+    "word": "benutzen",
+    "meaning": "to use",
+    "example": "Ich benutze mein Handy jeden Tag.",
+    "translation": "I use my phone every day.",
+    "category": "Verb"
+  },
+  {
+    "word": "beobachten",
+    "meaning": "to observe",
+    "example": "Wir beobachten die Sterne.",
+    "translation": "We are observing the stars.",
+    "category": "Verb"
+  },
+  {
+    "word": "berichten",
+    "meaning": "to report",
+    "example": "Der Journalistenbericht war sehr informativ.",
+    "translation": "The journalist's report was very informative.",
+    "category": "Verb"
+  },
+  {
+    "word": "besichtigen",
+    "meaning": "to visit (a place)",
+    "example": "Wir besichtigen das Museum.",
+    "translation": "We are visiting the museum.",
+    "category": "Verb"
+  },
+  {
+    "word": "befinden",
+    "meaning": "to be located",
+    "example": "Das Restaurant befindet sich im Stadtzentrum.",
+    "translation": "The restaurant is located in the city center.",
+    "category": "Verb"
+  },
+  {
+    "word": "begründen",
+    "meaning": "to justify",
+    "example": "Er musste seine Entscheidung begründen.",
+    "translation": "He had to justify his decision.",
+    "category": "Verb"
+  },
+  {
+    "word": "berühren",
+    "meaning": "to touch",
+    "example": "Du darfst das Bild nicht berühren.",
+    "translation": "You are not allowed to touch the picture.",
+    "category": "Verb"
+  },
+  {
+    "word": "beten",
+    "meaning": "to pray",
+    "example": "Sie beten vor dem Abendessen.",
+    "translation": "They pray before dinner.",
+    "category": "Verb"
+  },
+  {
+    "word": "beweisen",
+    "meaning": "to prove",
+    "example": "Er konnte seine Unschuld beweisen.",
+    "translation": "He was able to prove his innocence.",
+    "category": "Verb"
+  },
+  {
+    "word": "blenden",
+    "meaning": "to dazzle, blind",
+    "example": "Die Scheinwerfer blendeten mich.",
+    "translation": "The headlights blinded me.",
+    "category": "Verb"
+  },
+  {
+    "word": "bleiben",
+    "meaning": "to stay",
+    "example": "Ich bleibe heute zu Hause.",
+    "translation": "I am staying at home today.",
+    "category": "Verb"
+  },
+  {
+    "word": "chatten",
+    "meaning": "to chat",
+    "example": "Wir chatten jeden Tag.",
+    "translation": "We chat every day.",
+    "category": "Verb"
+  },
+  {
+    "word": "celebreren",
+    "meaning": "to celebrate",
+    "example": "Wir feiern heute Abend.",
+    "translation": "We are celebrating tonight.",
+    "category": "Verb"
+  },
+  {
+    "word": "chillen",
+    "meaning": "to relax",
+    "example": "Wir chillen am Strand.",
+    "translation": "We are relaxing at the beach.",
+    "category": "Verb"
+  },
+  {
+    "word": "clarifizieren",
+    "meaning": "to clarify",
+    "example": "Der Dozent wird die Frage klarifizieren.",
+    "translation": "The professor will clarify the question.",
+    "category": "Verb"
+  },
+  {
+    "word": "closen",
+    "meaning": "to close",
+    "example": "Wir müssen die Türen schließen.",
+    "translation": "We have to close the doors.",
+    "category": "Verb"
+  },
+  {
+    "word": "danken",
+    "meaning": "to thank",
+    "example": "Ich danke dir für deine Hilfe.",
+    "translation": "I thank you for your help.",
+    "category": "Verb"
+  },
+  {
+    "word": "denken",
+    "meaning": "to think",
+    "example": "Ich denke oft an meine Familie.",
+    "translation": "I often think about my family.",
+    "category": "Verb"
+  },
+  {
+    "word": "decken",
+    "meaning": "to cover",
+    "example": "Decke bitte den Tisch.",
+    "translation": "Please cover the table.",
+    "category": "Verb"
+  },
+  {
+    "word": "diskutieren",
+    "meaning": "to discuss",
+    "example": "Wir müssen über das Projekt diskutieren.",
+    "translation": "We need to discuss the project.",
+    "category": "Verb"
+  },
+  {
+    "word": "dürfen",
+    "meaning": "to be allowed",
+    "example": "Darf ich hier parken?",
+    "translation": "Am I allowed to park here?",
+    "category": "Verb"
+  },
+  {
+    "word": "drücken",
+    "meaning": "to press",
+    "example": "Bitte drück den Knopf.",
+    "translation": "Please press the button.",
+    "category": "Verb"
+  },
+  {
+    "word": "deuten",
+    "meaning": "to indicate",
+    "example": "Das Zeichen deutet auf Gefahr hin.",
+    "translation": "The sign indicates danger.",
+    "category": "Verb"
+  },
+  {
+    "word": "drängen",
+    "meaning": "to urge",
+    "example": "Er drängte mich, schneller zu gehen.",
+    "translation": "He urged me to walk faster.",
+    "category": "Verb"
+  },
+  {
+    "word": "drehen",
+    "meaning": "to turn",
+    "example": "Dreh den Schlüssel, um das Auto zu starten.",
+    "translation": "Turn the key to start the car.",
+    "category": "Verb"
+  },
+  {
+    "word": "duzen",
+    "meaning": "to address informally",
+    "example": "Wir duzen uns jetzt.",
+    "translation": "We address each other informally now.",
+    "category": "Verb"
+  },
+  {
+    "word": "eilen",
+    "meaning": "to hurry",
+    "example": "Ich muss mich beeilen, um den Zug zu erwischen.",
+    "translation": "I need to hurry to catch the train.",
+    "category": "Verb"
+  },
+  {
+    "word": "einladen",
+    "meaning": "to invite",
+    "example": "Ich lade dich zu meiner Feier ein.",
+    "translation": "I invite you to my party.",
+    "category": "Verb"
+  },
+  {
+    "word": "einsteigen",
+    "meaning": "to board",
+    "example": "Wir steigen jetzt in den Bus ein.",
+    "translation": "We are now boarding the bus.",
+    "category": "Verb"
+  },
+  {
+    "word": "essen",
+    "meaning": "to eat",
+    "example": "Wir essen gerne italienisches Essen.",
+    "translation": "We like to eat Italian food.",
+    "category": "Verb"
+  },
+  {
+    "word": "empfehlen",
+    "meaning": "to recommend",
+    "example": "Ich kann dir dieses Restaurant empfehlen.",
+    "translation": "I can recommend this restaurant to you.",
+    "category": "Verb"
+  },
+  {
+    "word": "empfinden",
+    "meaning": "to feel (emotionally)",
+    "example": "Ich empfinde viel Liebe für meine Familie.",
+    "translation": "I feel a lot of love for my family.",
+    "category": "Verb"
+  },
+  {
+    "word": "enden",
+    "meaning": "to end",
+    "example": "Der Film endet um 22 Uhr.",
+    "translation": "The movie ends at 10 PM.",
+    "category": "Verb"
+  },
+  {
+    "word": "erklären",
+    "meaning": "to explain",
+    "example": "Kannst du mir das erklären?",
+    "translation": "Can you explain this to me?",
+    "category": "Verb"
+  },
+  {
+    "word": "erlauben",
+    "meaning": "to allow",
+    "example": "Meine Eltern erlauben mir, bis spät auszugehen.",
+    "translation": "My parents allow me to stay out late.",
+    "category": "Verb"
+  },
+  {
+    "word": "ermöglichen",
+    "meaning": "to enable",
+    "example": "Diese Technologie ermöglicht neue Entwicklungen.",
+    "translation": "This technology enables new developments.",
+    "category": "Verb"
+  },
+  {
+    "word": "erreichen",
+    "meaning": "to reach",
+    "example": "Ich habe mein Ziel erreicht.",
+    "translation": "I have reached my goal.",
+    "category": "Verb"
+  },
+  {
+    "word": "fressen",
+    "meaning": "to eat (animals)",
+    "example": "Der Hund frisst sein Futter.",
+    "translation": "The dog is eating its food.",
+    "category": "Verb"
+  },
+  {
+    "word": "freuen",
+    "meaning": "to be happy",
+    "example": "Ich freue mich auf das Wochenende.",
+    "translation": "I am looking forward to the weekend.",
+    "category": "Verb"
+  },
+  {
+    "word": "fühlen",
+    "meaning": "to feel",
+    "example": "Ich fühle mich heute gut.",
+    "translation": "I feel good today.",
+    "category": "Verb"
+  },
+  {
+    "word": "fahren",
+    "meaning": "to drive",
+    "example": "Er fährt nach Berlin.",
+    "translation": "He is driving to Berlin.",
+    "category": "Verb"
+  },
+  {
+    "word": "falten",
+    "meaning": "to fold",
+    "example": "Du musst das Papier falten.",
+    "translation": "You need to fold the paper.",
+    "category": "Verb"
+  },
+  {
+    "word": "fallen",
+    "meaning": "to fall",
+    "example": "Der Apfel fällt vom Baum.",
+    "translation": "The apple falls from the tree.",
+    "category": "Verb"
+  },
+  {
+    "word": "fangen",
+    "meaning": "to catch",
+    "example": "Er fängt den Ball.",
+    "translation": "He catches the ball.",
+    "category": "Verb"
+  },
+  {
+    "word": "finden",
+    "meaning": "to find",
+    "example": "Ich habe meinen Schlüssel gefunden.",
+    "translation": "I found my key.",
+    "category": "Verb"
+  },
+  {
+    "word": "fliegen",
+    "meaning": "to fly",
+    "example": "Wir fliegen nach Paris.",
+    "translation": "We are flying to Paris.",
+    "category": "Verb"
+  },
+  {
+    "word": "fragen",
+    "meaning": "to ask",
+    "example": "Kann ich dich etwas fragen?",
+    "translation": "Can I ask you something?",
+    "category": "Verb"
+  },
+  {
+    "word": "forcieren",
+    "meaning": "to force",
+    "example": "Er musste das Tor forcieren.",
+    "translation": "He had to force the door.",
+    "category": "Verb"
+  },
+  {
+    "word": "gefallen",
+    "meaning": "to like",
+    "example": "Das Buch gefällt mir sehr.",
+    "translation": "I like the book very much.",
+    "category": "Verb"
+  },
+  {
+    "word": "gehen",
+    "meaning": "to go",
+    "example": "Wir gehen ins Kino.",
+    "translation": "We are going to the cinema.",
+    "category": "Verb"
+  },
+  {
+    "word": "gelingen",
+    "meaning": "to succeed",
+    "example": "Es ist mir gelungen, das Problem zu lösen.",
+    "translation": "I succeeded in solving the problem.",
+    "category": "Verb"
+  },
+  {
+    "word": "genießen",
+    "meaning": "to enjoy",
+    "example": "Wir genießen den Urlaub.",
+    "translation": "We are enjoying the vacation.",
+    "category": "Verb"
+  },
+  {
+    "word": "graben",
+    "meaning": "to dig",
+    "example": "Der Hund gräbt ein Loch.",
+    "translation": "The dog is digging a hole.",
+    "category": "Verb"
+  },
+  {
+    "word": "greifen",
+    "meaning": "to grab",
+    "example": "Er greift nach dem Buch.",
+    "translation": "He is reaching for the book.",
+    "category": "Verb"
+  },
+  {
+    "word": "glauben",
+    "meaning": "to believe",
+    "example": "Ich glaube, dass es bald regnen wird.",
+    "translation": "I believe it will rain soon.",
+    "category": "Verb"
+  },
+  {
+    "word": "gucken",
+    "meaning": "to look",
+    "example": "Guck mal, was ich gefunden habe!",
+    "translation": "Look at what I found!",
+    "category": "Verb"
+  },
+  {
+    "word": "gären",
+    "meaning": "to ferment",
+    "example": "Der Wein gärt im Fass.",
+    "translation": "The wine is fermenting in the barrel.",
+    "category": "Verb"
+  },
+  {
+    "word": "haben",
+    "meaning": "to have",
+    "example": "Ich habe keine Zeit.",
+    "translation": "I don't have time.",
+    "category": "Verb"
+  },
+  {
+    "word": "hassen",
+    "meaning": "to hate",
+    "example": "Sie hasst es, früh aufzuwachen.",
+    "translation": "She hates waking up early.",
+    "category": "Verb"
+  },
+  {
+    "word": "helfen",
+    "meaning": "to help",
+    "example": "Kannst du mir bitte helfen?",
+    "translation": "Can you please help me?",
+    "category": "Verb"
+  },
+  {
+    "word": "hören",
+    "meaning": "to hear",
+    "example": "Ich höre Musik.",
+    "translation": "I am listening to music.",
+    "category": "Verb"
+  },
+  {
+    "word": "hüten",
+    "meaning": "to guard",
+    "example": "Er hütet die Hunde.",
+    "translation": "He guards the dogs.",
+    "category": "Verb"
+  },
+  {
+    "word": "heben",
+    "meaning": "to lift",
+    "example": "Er hebt die Kiste hoch.",
+    "translation": "He lifts the box high.",
+    "category": "Verb"
+  },
+  {
+    "word": "heilen",
+    "meaning": "to heal",
+    "example": "Die Wunde heilt schnell.",
+    "translation": "The wound is healing quickly.",
+    "category": "Verb"
+  },
+  {
+    "word": "holen",
+    "meaning": "to fetch",
+    "example": "Kannst du bitte den Ball holen?",
+    "translation": "Can you fetch the ball, please?",
+    "category": "Verb"
+  },
+  {
+    "word": "hoffen",
+    "meaning": "to hope",
+    "example": "Ich hoffe, dass du bald gesund wirst.",
+    "translation": "I hope you get well soon.",
+    "category": "Verb"
+  },
+  {
+    "word": "infizieren",
+    "meaning": "to infect",
+    "example": "Die Wunde könnte sich infizieren.",
+    "translation": "The wound could get infected.",
+    "category": "Verb"
+  },
+  {
+    "word": "instruieren",
+    "meaning": "to instruct",
+    "example": "Der Lehrer wird uns das Thema instruieren.",
+    "translation": "The teacher will instruct us on the topic.",
+    "category": "Verb"
+  },
+  {
+    "word": "irritieren",
+    "meaning": "to irritate",
+    "example": "Sein Verhalten irritiert mich.",
+    "translation": "His behavior irritates me.",
+    "category": "Verb"
+  },
+  {
+    "word": "jagen",
+    "meaning": "to hunt",
+    "example": "Der Jäger jagt ein Wildschwein.",
+    "translation": "The hunter is hunting a wild boar.",
+    "category": "Verb"
+  },
+  {
+    "word": "jahrestagen",
+    "meaning": "to celebrate an anniversary",
+    "example": "Wir feiern unseren Hochzeitstag.",
+    "translation": "We celebrate our anniversary.",
+    "category": "Verb"
+  },
+  {
+    "word": "jubeln",
+    "meaning": "to cheer",
+    "example": "Die Fans jubeln nach dem Tor.",
+    "translation": "The fans cheer after the goal.",
+    "category": "Verb"
+  },
+  {
+    "word": "judizieren",
+    "meaning": "to judge",
+    "example": "Der Richter wird das Urteil judizieren.",
+    "translation": "The judge will pass the verdict.",
+    "category": "Verb"
+  },
+  {
+    "word": "kaufen",
+    "meaning": "to buy",
+    "example": "Ich möchte ein neues Auto kaufen.",
+    "translation": "I want to buy a new car.",
+    "category": "Verb"
+  },
+  {
+    "word": "kennen",
+    "meaning": "to know (a person)",
+    "example": "Kennst du sie?",
+    "translation": "Do you know her?",
+    "category": "Verb"
+  },
+  {
+    "word": "kommen",
+    "meaning": "to come",
+    "example": "Kommst du morgen?",
+    "translation": "Are you coming tomorrow?",
+    "category": "Verb"
+  },
+  {
+    "word": "können",
+    "meaning": "to be able",
+    "example": "Ich kann gut schwimmen.",
+    "translation": "I can swim well.",
+    "category": "Verb"
+  },
+  {
+    "word": "kriegen",
+    "meaning": "to get",
+    "example": "Ich habe ein Geschenk gekriegt.",
+    "translation": "I got a gift.",
+    "category": "Verb"
+  },
+  {
+    "word": "kühlen",
+    "meaning": "to cool",
+    "example": "Ich kühle das Getränk im Kühlschrank.",
+    "translation": "I am cooling the drink in the fridge.",
+    "category": "Verb"
+  },
+  {
+    "word": "klingen",
+    "meaning": "to sound",
+    "example": "Das klingt gut.",
+    "translation": "That sounds good.",
+    "category": "Verb"
+  },
+  {
+    "word": "kochen",
+    "meaning": "to cook",
+    "example": "Ich koche heute Abend.",
+    "translation": "I am cooking tonight.",
+    "category": "Verb"
+  },
+  {
+    "word": "lassen",
+    "meaning": "to let",
+    "example": "Lass uns gehen.",
+    "translation": "Let's go.",
+    "category": "Verb"
+  },
+  {
+    "word": "laufen",
+    "meaning": "to run",
+    "example": "Ich laufe jeden Morgen.",
+    "translation": "I run every morning.",
+    "category": "Verb"
+  },
+  {
+    "word": "lesen",
+    "meaning": "to read",
+    "example": "Sie liest ein interessantes Buch.",
+    "translation": "She is reading an interesting book.",
+    "category": "Verb"
+  },
+  {
+    "word": "liegen",
+    "meaning": "to lie (position)",
+    "example": "Das Buch liegt auf dem Tisch.",
+    "translation": "The book is on the table.",
+    "category": "Verb"
+  },
+  {
+    "word": "leihen",
+    "meaning": "to lend",
+    "example": "Kannst du mir dein Auto leihen?",
+    "translation": "Can you lend me your car?",
+    "category": "Verb"
+  },
+  {
+    "word": "lieben",
+    "meaning": "to love",
+    "example": "Ich liebe dich.",
+    "translation": "I love you.",
+    "category": "Verb"
+  },
+  {
+    "word": "machen",
+    "meaning": "to make",
+    "example": "Ich mache meine Hausaufgaben.",
+    "translation": "I am doing my homework.",
+    "category": "Verb"
+  },
+  {
+    "word": "mitkommen",
+    "meaning": "to come along",
+    "example": "Willst du mit mir mitkommen?",
+    "translation": "Do you want to come along with me?",
+    "category": "Verb"
+  },
+  {
+    "word": "mögen",
+    "meaning": "to like",
+    "example": "Ich mag Pizza.",
+    "translation": "I like pizza.",
+    "category": "Verb"
+  },
+  {
+    "word": "möchten",
+    "meaning": "would like",
+    "example": "Ich möchte ein Glas Wasser.",
+    "translation": "I would like a glass of water.",
+    "category": "Verb"
+  },
+  {
+    "word": "musizieren",
+    "meaning": "to make music",
+    "example": "Wir musizieren im Chor.",
+    "translation": "We make music in the choir.",
+    "category": "Verb"
+  },
+  {
+    "word": "merken",
+    "meaning": "to notice",
+    "example": "Ich habe es sofort gemerkt.",
+    "translation": "I noticed it immediately.",
+    "category": "Verb"
+  },
+  {
+    "word": "meiden",
+    "meaning": "to avoid",
+    "example": "Sie meidet es, spät auszugehen.",
+    "translation": "She avoids going out late.",
+    "category": "Verb"
+  },
+  {
+    "word": "messen",
+    "meaning": "to measure",
+    "example": "Ich muss die Länge messen.",
+    "translation": "I need to measure the length.",
+    "category": "Verb"
+  },
+  {
+    "word": "mischen",
+    "meaning": "to mix",
+    "example": "Mische die Zutaten gut.",
+    "translation": "Mix the ingredients well.",
+    "category": "Verb"
+  },
+  {
+    "word": "nähen",
+    "meaning": "to sew",
+    "example": "Meine Mutter näht ein Kleid.",
+    "translation": "My mother is sewing a dress.",
+    "category": "Verb"
+  },
+  {
+    "word": "nehmen",
+    "meaning": "to take",
+    "example": "Ich nehme den Bus.",
+    "translation": "I take the bus.",
+    "category": "Verb"
+  },
+  {
+    "word": "nennen",
+    "meaning": "to name",
+    "example": "Wie nennen wir das Kind?",
+    "translation": "What do we name the child?",
+    "category": "Verb"
+  },
+  {
+    "word": "nicken",
+    "meaning": "to nod",
+    "example": "Er nickte zustimmend.",
+    "translation": "He nodded in agreement.",
+    "category": "Verb"
+  },
+  {
+    "word": "öffnen",
+    "meaning": "to open",
+    "example": "Er öffnete das Fenster.",
+    "translation": "He opened the window.",
+    "category": "Verb"
+  },
+  {
+    "word": "ordnen",
+    "meaning": "to arrange",
+    "example": "Ich ordne meine Bücher im Regal.",
+    "translation": "I arrange my books on the shelf.",
+    "category": "Verb"
+  },
+  {
+    "word": "operieren",
+    "meaning": "to operate",
+    "example": "Der Arzt wird mich operieren.",
+    "translation": "The doctor will operate on me.",
+    "category": "Verb"
+  },
+  {
+    "word": "putzen",
+    "meaning": "to clean",
+    "example": "Ich putze mein Zimmer.",
+    "translation": "I am cleaning my room.",
+    "category": "Verb"
+  },
+  {
+    "word": "passen",
+    "meaning": "to fit",
+    "example": "Der Schuh passt mir nicht.",
+    "translation": "The shoe does not fit me.",
+    "category": "Verb"
+  },
+  {
+    "word": "plaudern",
+    "meaning": "to chat",
+    "example": "Wir plaudern oft über alte Zeiten.",
+    "translation": "We often chat about old times.",
+    "category": "Verb"
+  },
+  {
+    "word": "probieren",
+    "meaning": "to try",
+    "example": "Probier es mal!",
+    "translation": "Try it out!",
+    "category": "Verb"
+  },
+  {
+    "word": "prüfen",
+    "meaning": "to check",
+    "example": "Ich muss meine E-Mails prüfen.",
+    "translation": "I need to check my emails.",
+    "category": "Verb"
+  },
+  {
+    "word": "reisen",
+    "meaning": "to travel",
+    "example": "Wir reisen nach Italien.",
+    "translation": "We are traveling to Italy.",
+    "category": "Verb"
+  },
+  {
+    "word": "reagieren",
+    "meaning": "to react",
+    "example": "Sie reagiert immer ruhig.",
+    "translation": "She always reacts calmly.",
+    "category": "Verb"
+  },
+  {
+    "word": "rennen",
+    "meaning": "to run",
+    "example": "Der Hund rennt schnell.",
+    "translation": "The dog runs quickly.",
+    "category": "Verb"
+  },
+  {
+    "word": "rufen",
+    "meaning": "to call",
+    "example": "Er rief nach seiner Mutter.",
+    "translation": "He called for his mother.",
+    "category": "Verb"
+  },
+  {
+    "word": "räumen",
+    "meaning": "to clear",
+    "example": "Wir müssen den Tisch räumen.",
+    "translation": "We need to clear the table.",
+    "category": "Verb"
+  },
+  {
+    "word": "sehen",
+    "meaning": "to see",
+    "example": "Ich sehe einen Film.",
+    "translation": "I am watching a movie.",
+    "category": "Verb"
+  },
+  {
+    "word": "sein",
+    "meaning": "to be",
+    "example": "Ich bin müde.",
+    "translation": "I am tired.",
+    "category": "Verb"
+  },
+  {
+    "word": "singen",
+    "meaning": "to sing",
+    "example": "Sie singt im Chor.",
+    "translation": "She sings in the choir.",
+    "category": "Verb"
+  },
+  {
+    "word": "sprechen",
+    "meaning": "to speak",
+    "example": "Ich spreche Englisch und Deutsch.",
+    "translation": "I speak English and German.",
+    "category": "Verb"
+  },
+  {
+    "word": "springen",
+    "meaning": "to jump",
+    "example": "Der Hund springt über den Zaun.",
+    "translation": "The dog jumps over the fence.",
+    "category": "Verb"
+  },
+  {
+    "word": "sagen",
+    "meaning": "to say",
+    "example": "Sie sagt, dass sie kommen wird.",
+    "translation": "She says she will come.",
+    "category": "Verb"
+  },
+  {
+    "word": "schlafen",
+    "meaning": "to sleep",
+    "example": "Ich schlafe gerne lange am Wochenende.",
+    "translation": "I like to sleep in on weekends.",
+    "category": "Verb"
+  },
+  {
+    "word": "schreiben",
+    "meaning": "to write",
+    "example": "Ich schreibe dir einen Brief.",
+    "translation": "I am writing you a letter.",
+    "category": "Verb"
+  },
+  {
+    "word": "senden",
+    "meaning": "to send",
+    "example": "Ich sende dir eine E-Mail.",
+    "translation": "I am sending you an email.",
+    "category": "Verb"
+  },
+  {
+    "word": "tanzen",
+    "meaning": "to dance",
+    "example": "Wir tanzen auf der Party.",
+    "translation": "We are dancing at the party.",
+    "category": "Verb"
+  },
+  {
+    "word": "teilen",
+    "meaning": "to share",
+    "example": "Ich teile mein Mittagessen mit dir.",
+    "translation": "I am sharing my lunch with you.",
+    "category": "Verb"
+  },
+  {
+    "word": "testen",
+    "meaning": "to test",
+    "example": "Wir testen die neue Software.",
+    "translation": "We are testing the new software.",
+    "category": "Verb"
+  },
+  {
+    "word": "trinken",
+    "meaning": "to drink",
+    "example": "Ich trinke gerne Kaffee.",
+    "translation": "I like to drink coffee.",
+    "category": "Verb"
+  },
+  {
+    "word": "tropfen",
+    "meaning": "to drip",
+    "example": "Wasser tropft vom Dach.",
+    "translation": "Water is dripping from the roof.",
+    "category": "Verb"
+  },
+  {
+    "word": "umsteigen",
+    "meaning": "to change (train/bus)",
+    "example": "Ich muss in Frankfurt umsteigen.",
+    "translation": "I have to change trains in Frankfurt.",
+    "category": "Verb"
+  },
+  {
+    "word": "unterbrechen",
+    "meaning": "to interrupt",
+    "example": "Er unterbrach mich während meiner Rede.",
+    "translation": "He interrupted me during my speech.",
+    "category": "Verb"
+  },
+  {
+    "word": "vergessen",
+    "meaning": "to forget",
+    "example": "Ich habe meinen Schlüssel vergessen.",
+    "translation": "I forgot my key.",
+    "category": "Verb"
+  },
+  {
+    "word": "verstehen",
+    "meaning": "to understand",
+    "example": "Ich verstehe dich gut.",
+    "translation": "I understand you well.",
+    "category": "Verb"
+  },
+  {
+    "word": "versuchen",
+    "meaning": "to try",
+    "example": "Ich versuche, Deutsch zu lernen.",
+    "translation": "I try to learn German.",
+    "category": "Verb"
+  },
+  {
+    "word": "verlassen",
+    "meaning": "to leave",
+    "example": "Sie hat ihn verlassen.",
+    "translation": "She left him.",
+    "category": "Verb"
+  },
+  {
+    "word": "verändern",
+    "meaning": "to change",
+    "example": "Die Zeit verändert uns.",
+    "translation": "Time changes us.",
+    "category": "Verb"
+  },
+  {
+    "word": "verhindern",
+    "meaning": "to prevent",
+    "example": "Der Regen verhindert das Picknick.",
+    "translation": "The rain is preventing the picnic.",
+    "category": "Verb"
+  },
+  {
+    "word": "warten",
+    "meaning": "to wait",
+    "example": "Wir warten auf den Bus.",
+    "translation": "We are waiting for the bus.",
+    "category": "Verb"
+  },
+  {
+    "word": "werden",
+    "meaning": "to become",
+    "example": "Sie wird Ärztin.",
+    "translation": "She will become a doctor.",
+    "category": "Verb"
+  },
+  {
+    "word": "wissen",
+    "meaning": "to know (a fact)",
+    "example": "Ich weiß die Antwort.",
+    "translation": "I know the answer.",
+    "category": "Verb"
+  },
+  {
+    "word": "wollen",
+    "meaning": "to want",
+    "example": "Ich will ins Kino gehen.",
+    "translation": "I want to go to the cinema.",
+    "category": "Verb"
+  },
+  {
+    "word": "zeigen",
+    "meaning": "to show",
+    "example": "Kannst du mir den Weg zeigen?",
+    "translation": "Can you show me the way?",
+    "category": "Verb"
+  },
+  {
+    "word": "ziehen",
+    "meaning": "to pull",
+    "example": "Er zieht den Wagen.",
+    "translation": "He pulls the cart.",
+    "category": "Verb"
+  },
+  {
+    "word": "zahlen",
+    "meaning": "to pay",
+    "example": "Ich muss noch die Rechnung zahlen.",
+    "translation": "I still need to pay the bill.",
+    "category": "Verb"
+  },
+  {
+    "word": "zwingen",
+    "meaning": "to force",
+    "example": "Der Lehrer zwang uns, still zu sitzen.",
+    "translation": "The teacher forced us to sit still.",
+    "category": "Verb"
+  },
+  {
+    "word": "zweifeln",
+    "meaning": "to doubt",
+    "example": "Ich zweifle an seiner Ehrlichkeit.",
+    "translation": "I doubt his honesty.",
+    "category": "Verb"
+  }
+]

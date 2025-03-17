@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@import './styles/card.css';
+
+@theme {
+  --font-display: "Lexend Deca", "sans-serif";
+
+  --color-background: #1A1125;
+  --color-primary: #FFB300;
+  --color-secondary: #F5E8C7;
+}
+
+html, body {
+  @apply bg-background text-secondary font-sans;
+}
+
+.container {
+  @apply max-w-[1200px] mx-auto px-4;
+}
+
+.btn {
+  @apply bg-primary text-background text-lg font-bold py-2 px-4 rounded-full hover:opacity-80 transition;
+}
+
+.icon {
+  background-image: url("./assets/brain_icon.jpg");
+  background-size: 100%;
+  border-radius: 100%;
+  background-position: center;
+}

@@ -1,0 +1,47 @@
+/* Card Styles */
+.card-container {
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 360px;
+  height: 240px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.card-front, .card-back {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-front {
+  background-color: var(--color-secondary);
+  font-size: 1.5rem;
+  color: var(--color-background);
+}
+
+.card-back {
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  transform: rotateY(180deg);
+  padding: 10px;
+  display: block;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
