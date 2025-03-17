@@ -4,7 +4,7 @@ import Word from "@/models/Word";
 
 export async function POST(req: NextRequest) {
   try {
-    await connectToDatabase(); // Connect to MongoDB
+    await connectToDatabase();
 
     const body = await req.json();
     

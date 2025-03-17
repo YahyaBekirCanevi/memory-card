@@ -4,7 +4,7 @@ import Word from "@/models/Word";
 
 export async function GET(req: NextRequest) {
   try {
-    await connectToDatabase(); // Connect to MongoDB
+    await connectToDatabase();
 
     const url = new URL(req.url);
     const amount = parseInt(url.searchParams.get("amount") || "10", 10);

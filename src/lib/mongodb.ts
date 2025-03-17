@@ -1,22 +1,21 @@
 import mongoose from "mongoose";
+import { MongoClient, MongoClientOptions } from "mongodb";
 
 if (!process.env.MONGO_URI) {
   throw new Error("Please define the MONGODB_URI environment variable");
 }
 
-const uri =
-  process.env.MONGO_URI + "?retryWrites=true&w=majority&appName=CAPITALIVE";
-const MONGODB_URI = uri; //process.env.MONGODB_URI!; // Load from .env file
+const MONGODB_URI = process.env.MONGO_URI;
 
-let cached = (global as any).mongoose || { conn: null, promise: null };
+let cachedMongoose = (global as any).mongoose || { conn: null, promise: null };
 
-export async function connectToDatabase() {
-  if (cached.conn) {
-    return cached.conn;
+export async function connectToDatabase(): Promise<mongoose.Mongoose> {
+  if (cachedMongoose.conn) {
+    return cachedMongoose.conn;
   }
 
-  if (!cached.promise) {
-    cached.promise = mongoose
+  if (!cachedMongoose.promise) {
+    cachedMongoose.promise = mongoose
       .connect(MONGODB_URI, {
         dbName: "memory_cards",
         bufferCommands: false,
@@ -25,6 +24,27 @@ export async function connectToDatabase() {
       .then((mongoose) => mongoose);
   }
 
-  cached.conn = await cached.promise;
-  return cached.conn;
+  cachedMongoose.conn = await cachedMongoose.promise;
+  return cachedMongoose.conn;
+}
+
+
+const options: MongoClientOptions = {
+  serverApi: { version: "1", strict: true, deprecationErrors: true },
+};
+
+let cachedMongoClient = (global as any) || { conn: null, promise: null };
+
+export async function connectToMongoClient(): Promise<MongoClient> {
+  if (cachedMongoClient.conn) {
+    return cachedMongoClient.conn;
+  }
+
+  if (!cachedMongoClient.promise) {
+    const client = new MongoClient(MONGODB_URI, options);
+    cachedMongoClient.promise = client.connect();
+  }
+
+  cachedMongoClient.conn = await cachedMongoClient.promise;
+  return cachedMongoClient.conn;
 }
