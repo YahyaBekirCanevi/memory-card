@@ -28,9 +28,9 @@ function Topbar() {
   return (
     <nav className={`w-full bg-background/80 py-4 fixed z-100`}>
       <div className="container flex items-center justify-between">
-        <h1 className="text-2xl font-extrabold text-primary tracking-tight ml-4">
+        <Link href="/" className="text-2xl font-extrabold text-primary tracking-tight ml-4">
           BrainBolt
-        </h1>
+        </Link>
         <div className="flex space-x-6">
           {navItems.map((item) => (
             <Link
@@ -46,13 +46,13 @@ function Topbar() {
             </Link>
           ))}
         </div>
-        <div>
+        <div className="flex justify-end py-2 w-[100px]">
           {session ? (
-            <button onClick={() => signOut()} className="text-secondary">
+            <button onClick={() => signOut()} className="btn text-lg">
               Logout
             </button>
           ) : (
-            <Link href="/login" className="text-primary">
+            <Link href="/login" className="btn text-lg">
               Login
             </Link>
           )}

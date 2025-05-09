@@ -9,6 +9,15 @@ export default function Login() {
         <h1 className="text-3xl font-bold text-secondary mb-12 w-full">
           Login
         </h1>
+        <button
+          onClick={() => signIn("google")}
+          className="bg-background w-full text-white px-6 py-3 rounded-xl mb-4 border-2 border-white/50 cursor-pointer"
+        >
+          Sign in with Google
+        </button>
+
+        <hr className="border border-white/50 w-full my-4" />
+
         <form
           className="flex flex-col items-center space-y-4 w-full"
           onSubmit={async (e) => {
@@ -31,14 +40,6 @@ export default function Login() {
             Get Login Code
           </button>
         </form>
-        <hr className="border border-white/50 w-full my-4" />
-
-        <button
-          onClick={() => signIn("google")}
-          className="bg-background w-full text-white px-6 py-3 rounded-xl mb-4 border-2 border-white/50 cursor-pointer"
-        >
-          Sign in with Google
-        </button>
       </div>
     </div>
   );
